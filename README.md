@@ -2,3 +2,4 @@
 -  Saída de dados
 -  Comportamento do elemento
 -  Entrada -> (Elemento) -> Saída
+-  Funções Mock
