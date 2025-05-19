@@ -20,7 +20,7 @@ def test_get_discount_with_spy_integration(mocker):
 def fake_discount_rate(initial_value):
     return 0.40
 
-def test_get_discount_with_spy_and_custom_return(mocker):
+def test_get_discount_with_spy_and_custom_return(mocker): # spy with mock comportament
     spy = mocker.patch("tests.run.fetch_discount_rate", side_effect=fake_discount_rate)
     result = run.get_discount(100)
     print(result)
