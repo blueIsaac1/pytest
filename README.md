@@ -3,3 +3,4 @@
 -  Comportamento do elemento
 -  Entrada -> (Elemento) -> Saída
 -  Funções Mock
+-  Mock Spys
